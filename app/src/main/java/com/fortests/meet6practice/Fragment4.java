@@ -13,6 +13,7 @@ import android.support.annotation.Nullable;
 import android.support.constraint.ConstraintLayout;
 import android.support.constraint.ConstraintSet;
 import android.support.v4.app.Fragment;
+import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -59,7 +60,8 @@ public class Fragment4 extends Fragment {
                 ConstraintSet set = new ConstraintSet();
                 set.clone(layout);
                 float angle = (float) mBoundService.Angle();
-                set.constrainCircle(R.id.fragment4_button, R.id.textView2,100, angle);
+                int radius = convertDpToPx(50);
+                set.constrainCircle(R.id.fragment4_button, R.id.textView2,radius, angle);
                 set.applyTo(layout);
             }
         };
@@ -84,6 +86,11 @@ public class Fragment4 extends Fragment {
     public int getAngle(){
 
         return mBoundService.Angle();
+    }
+
+    private int convertDpToPx(int dp){
+        return Math.round(dp*(getResources().getDisplayMetrics().xdpi/ DisplayMetrics.DENSITY_DEFAULT));
+
     }
 
 

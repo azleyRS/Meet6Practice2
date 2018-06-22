@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:text="Button"
         app:layout_constraintCircle="@id/textView2"
-        app:layout_constraintCircleRadius="100px"
+        app:layout_constraintCircleRadius="50dp"
         app:layout_constraintCircleAngle="0"
         app:layout_constraintStart_toEndOf="@+id/barrier2"
         app:layout_constraintTop_toTopOf="parent" />

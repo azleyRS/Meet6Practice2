@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity implements Fragment3.OnTextV
 
     public static final String BROADCAST = "myservice";
     public static final String BROADCAST3 = "myservice3";
+    public static final String BROADCAST2 = "myservice2";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

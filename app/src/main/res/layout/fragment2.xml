@@ -5,71 +5,71 @@
     android:layout_height="match_parent">
     <Button
         android:id="@+id/fragment2_button1"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_heighth"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:text="1"/>
 
     <Button
         android:id="@+id/fragment2_button2"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_heighth"
         android:layout_centerVertical="true"
         android:layout_toStartOf="@+id/fragment2_the_chosen_one"
         android:text="2" />
 
     <Button
         android:id="@+id/fragment2_button3"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_heighth"
         android:layout_centerVertical="true"
         android:layout_toEndOf="@+id/fragment2_button4"
         android:text="3" />
 
     <Button
         android:id="@+id/fragment2_button4"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_heighth"
         android:layout_below="@+id/fragment2_button2"
         android:layout_centerHorizontal="true"
         android:text="4" />
 
     <Button
         android:id="@+id/fragment2_button5"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_heighth"
         android:layout_above="@+id/fragment2_button2"
         android:layout_centerHorizontal="true"
         android:text="5" />
 
     <Button
         android:id="@+id/fragment2_the_chosen_one"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_heighth"
         android:layout_centerInParent="true"
         android:text="6" />
 
     <Button
         android:id="@+id/fragment2_button7"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_heighth"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:text="7" />
 
     <Button
         android:id="@+id/fragment2_button8"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_heighth"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
         android:text="8" />
 
     <Button
         android:id="@+id/fragment2_button9"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_heighth"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:text="9" />
